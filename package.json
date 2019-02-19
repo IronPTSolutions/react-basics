@@ -1,11 +1,10 @@
 {
-  "name": "my-first-react-app",
+  "name": "react-basics",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack-dev-server --progress --color",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack-dev-server --progress --color"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +21,8 @@
     "webpack-dev-server": "^3.1.3"
   },
   "dependencies": {
-    "babel-plugin-transform-class-properties": "^6.24.1"
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
   }
 }
